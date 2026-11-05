@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080b16"><meta name="description" content="PlayPoints — بوابتك الرقمية لإدارة طلباتك ومتابعة خدماتك.">
+<title>PlayPoints | بوابتك الرقمية</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+<header class="topbar">
+  <a class="brand" href="index.html"><img src="logo.jpg" alt="PlayPoints" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><span class="brand-fallback">P</span><span>PLAY<span class="accent">POINTS</span></span></a>
+  <div class="top-actions"><span class="system-pill"><i></i><span data-ar="النظام جاهز" data-en="SYSTEM READY">النظام جاهز</span></span><button class="lang-btn" id="languageToggle" type="button">EN</button></div>
+</header>
+<main class="shell">
+<section class="hero">
+  <div class="hero-copy"><span class="eyebrow"><span class="eyebrow-line"></span> DIGITAL CONTROL CENTER</span>
+    <h1 data-ar="كل خدماتك الرقمية،<br><span>في مكان واحد.</span>" data-en="Your digital services,<br><span>all in one place.</span>">كل خدماتك الرقمية،<br><span>في مكان واحد.</span></h1>
+    <p data-ar="مرحبًا بك في PlayPoints. واجهة موحدة لمتابعة طلباتك والوصول إلى أدوات الخدمة بسهولة." data-en="Welcome to PlayPoints. One clean interface to follow your requests and access service tools.">مرحبًا بك في PlayPoints. واجهة موحدة لمتابعة طلباتك والوصول إلى أدوات الخدمة بسهولة.</p>
+    <div class="hero-tags"><span>SECURE ACCESS</span><span>SMART INTERFACE</span><span>24/7 PORTAL</span></div>
+  </div>
+  <div class="hero-visual"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="visual-glow"></div><img src="max.jpg" alt="PlayPoints visual" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="visual-placeholder"><b>P</b><small>PLAYPOINTS</small></div><span class="float-chip chip-top">✦ <span data-ar="بوابة ذكية" data-en="SMART PORTAL">بوابة ذكية</span></span><span class="float-chip chip-bottom">◈ <span data-ar="وصول سريع" data-en="QUICK ACCESS">وصول سريع</span></span></div>
+</section>
+<section class="login-layout">
+  <div class="section-intro"><span class="eyebrow">01 / ACCESS</span><h2 data-ar="ابدأ رحلتك" data-en="Get started">ابدأ رحلتك</h2><p data-ar="أدخل بيانات الطلب للانتقال إلى مساحة الخدمات." data-en="Enter your request details to open the services area.">أدخل بيانات الطلب للانتقال إلى مساحة الخدمات.</p></div>
+  <form class="glass-card login-card" id="loginForm">
+    <div class="card-heading"><div class="card-icon">⌁</div><div><h3 data-ar="تسجيل الدخول" data-en="Sign in">تسجيل الدخول</h3><small data-ar="أدخل معلومات الوصول الخاصة بك" data-en="Enter your access details">أدخل معلومات الوصول الخاصة بك</small></div><span class="step-number">01</span></div>
+    <label for="email" data-ar="البريد الإلكتروني" data-en="Email address">البريد الإلكتروني</label><input id="email" type="email" autocomplete="email" placeholder="name@example.com" required>
+    <label for="requestCode" data-ar="رمز الطلب" data-en="Request code">رمز الطلب</label><input id="requestCode" type="text" autocomplete="off" placeholder="PP-XXXX-XXXX" required>
+    <p class="form-note" data-ar="هذه نسخة واجهة تجريبية؛ لا يتم التحقق من الرموز عبر خادم." data-en="Demo interface: codes are not verified by a server.">هذه نسخة واجهة تجريبية؛ لا يتم التحقق من الرموز عبر خادم.</p>
+    <button class="primary-btn" type="submit"><span data-ar="الدخول إلى المنصة" data-en="Enter platform">الدخول إلى المنصة</span><b>↗</b></button>
+    <p class="form-error" id="formError" role="alert"></p>
+    <div class="buy-row"><span data-ar="لا تملك رمز طلب؟" data-en="Don't have a request code?">لا تملك رمز طلب؟</span><a href="https://t.me/algpch" target="_blank" rel="noopener"> <span data-ar="اطلبه الآن" data-en="Request one">اطلبه الآن</span> ↗</a></div>
+  </form>
+</section>
+<footer><span>© 2026 PLAYPOINTS</span><span data-ar="واجهة رقمية تجريبية" data-en="DEMO DIGITAL INTERFACE">واجهة رقمية تجريبية</span><span>BUILT FOR THE NEXT</span></footer>
+</main><script src="app.js"></script></body></html>
